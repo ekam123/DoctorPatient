@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Patient.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -14,8 +15,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property NSString *name;
 @property NSString *specialization;
+@property NSMutableArray *patientRecords;
 
-- (instancetype)initWithName:(NSString *)name andSpecialization:(NSString *)specialization; 
+- (instancetype)initWithName:(NSString *)name andSpecialization:(NSString *)specialization;
+
+- (BOOL)checkPatientEligibility:(Patient *)patient;
+
+- (void)patientHistory:(Patient *)patient;
 
 @end
 
