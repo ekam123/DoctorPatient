@@ -10,4 +10,18 @@
 
 @implementation Patient
 
+- (instancetype)initWithName:(NSString *)name andAge:(int)age
+{
+    self = [super init];
+    if (self) {
+        _fullname = name;
+        _age = age;
+    }
+    return self;
+}
+
+- (NSMutableArray *)patientSymptoms:(NSString *)symptoms {
+    return nil; 
+}
+
 @end

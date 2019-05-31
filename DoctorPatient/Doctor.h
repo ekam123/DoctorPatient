@@ -8,8 +8,11 @@
 
 #import <Foundation/Foundation.h>
 #import "Patient.h"
+#import "DiseaseList.h"
 
 NS_ASSUME_NONNULL_BEGIN
+
+
 
 @interface Doctor : NSObject
 
@@ -17,11 +20,16 @@ NS_ASSUME_NONNULL_BEGIN
 @property NSString *specialization;
 @property NSMutableArray *patientRecords;
 
+
 - (instancetype)initWithName:(NSString *)name andSpecialization:(NSString *)specialization;
 
 - (BOOL)checkPatientEligibility:(Patient *)patient;
 
 - (void)patientHistory:(Patient *)patient;
+
+- (NSString *)requestMedicationForPatient:(Patient *)patient Symptoms:(NSString *)symptoms;
+
+
 
 @end
 

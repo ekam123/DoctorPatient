@@ -17,6 +17,10 @@ NS_ASSUME_NONNULL_BEGIN
 @property NSString *fullname;
 @property NSString *healthcardNumber;
 
+- (NSMutableArray *)patientSymptoms:(NSString *)symptoms;
+
+- (instancetype)initWithName:(NSString *)name andAge:(int)age;
+
 @end
 
 NS_ASSUME_NONNULL_END

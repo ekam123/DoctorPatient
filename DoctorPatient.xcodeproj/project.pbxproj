@@ -10,6 +10,8 @@
 		06E80C3D22A0B9D20039472D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06E80C3C22A0B9D20039472D /* main.m */; };
 		06E80C4522A0BA030039472D /* Doctor.m in Sources */ = {isa = PBXBuildFile; fileRef = 06E80C4422A0BA030039472D /* Doctor.m */; };
 		06E80C4822A0BA160039472D /* Patient.m in Sources */ = {isa = PBXBuildFile; fileRef = 06E80C4722A0BA160039472D /* Patient.m */; };
+		06E80C4E22A0C9B10039472D /* DiseaseList.m in Sources */ = {isa = PBXBuildFile; fileRef = 06E80C4D22A0C9B10039472D /* DiseaseList.m */; };
+		06E80C5122A0D2D50039472D /* InputCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = 06E80C5022A0D2D50039472D /* InputCollector.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,10 @@
 		06E80C4422A0BA030039472D /* Doctor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Doctor.m; sourceTree = "<group>"; };
 		06E80C4622A0BA160039472D /* Patient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Patient.h; sourceTree = "<group>"; };
 		06E80C4722A0BA160039472D /* Patient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Patient.m; sourceTree = "<group>"; };
+		06E80C4C22A0C9B10039472D /* DiseaseList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiseaseList.h; sourceTree = "<group>"; };
+		06E80C4D22A0C9B10039472D /* DiseaseList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiseaseList.m; sourceTree = "<group>"; };
+		06E80C4F22A0D2D50039472D /* InputCollector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputCollector.h; sourceTree = "<group>"; };
+		06E80C5022A0D2D50039472D /* InputCollector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InputCollector.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +71,10 @@
 			children = (
 				06E80C3C22A0B9D20039472D /* main.m */,
 				06E80C4322A0BA030039472D /* Doctor.h */,
+				06E80C4F22A0D2D50039472D /* InputCollector.h */,
+				06E80C5022A0D2D50039472D /* InputCollector.m */,
+				06E80C4C22A0C9B10039472D /* DiseaseList.h */,
+				06E80C4D22A0C9B10039472D /* DiseaseList.m */,
 				06E80C4422A0BA030039472D /* Doctor.m */,
 				06E80C4622A0BA160039472D /* Patient.h */,
 				06E80C4722A0BA160039472D /* Patient.m */,
@@ -128,7 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06E80C4E22A0C9B10039472D /* DiseaseList.m in Sources */,
 				06E80C4822A0BA160039472D /* Patient.m in Sources */,
+				06E80C5122A0D2D50039472D /* InputCollector.m in Sources */,
 				06E80C4522A0BA030039472D /* Doctor.m in Sources */,
 				06E80C3D22A0B9D20039472D /* main.m in Sources */,
 			);
